@@ -1,0 +1,32 @@
+/* about Area  */
+.about__image__area {
+    position: relative;
+  }
+  .about__img {
+    max-width: 100%;
+  }
+  .about__text__area {
+    position: absolute;
+    left: 55%;
+    top: 70%;
+    width: 480px;
+    padding: 50px 20px;
+    background: linear-gradient(180deg, #ecd8ff 0%, #ffffff 100%);
+  }
+  .about__title {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2em;
+  }
+  .about__sub__section__text {
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+  /* End about Area  */
+
+  /* Responsive about part */
+  @media screen and (max-width: 760px) {
+    .about__text__area{
+        display: none;
+    }
+  }

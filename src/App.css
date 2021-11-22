@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+}
+/* Sidebar CSS  */
+.social__icon {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+.social__icon ul {
+  padding: 2px;
+  background-color: #ffffff;
+}
+.social__icon ul li {
+  padding: 3px;
+  color: black;
+}
+.fab {
+  font-size: 24px !important;
+  cursor: pointer;
+}
+.sticky__text{
+  position: fixed;
+  top: 50%;
+  right: -5%;
+  background-color: #DFFF61;
+  padding: 10px;
+  transform: translateX(-50%);
+  z-index: 999;
+  transform: rotate(-90deg);
+}
+
+.frame__logo {
+  position: fixed;
+  top: 15%;
+  right: 1%;
+  transform: rotate(-90deg);
+  transform: translateX(-50%);
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 20px;
+  z-index: 999;
+}
+/* Responsive sidebar frame */
+@media screen and (max-width: 760px) {
+  .sticky__text{
+     right: -15%;
+  }
+}

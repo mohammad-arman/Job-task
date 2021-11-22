@@ -1,0 +1,35 @@
+/* Footer area  */
+.footer__area {
+    background-color: black;
+    color: white;
+  }
+  .footer__text{
+      margin-top: 130px;
+  }
+  .contact__part h2{
+        font-size: 1em;
+        font-weight: 600;
+  }
+  .contact__part,  .address__part p{
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 26px;
+  }
+  .footer__social__icon ul {
+    padding: 0;
+    display: flex;
+    text-align: left;
+    list-style: none;
+  }
+  .footer__social__icon ul li {
+    padding: 10px 10px;
+  }
+  .footer__social__icon ul li > .fab {
+    color: white !important;
+  }
+  /* Responsive Footer */
+@media screen and (max-width: 760px) {
+    .footer__text{
+        margin-top: 30px;
+    }
+  }

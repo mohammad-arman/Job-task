@@ -1,0 +1,23 @@
+/* CTA Area  */
+.CTA__AREA {
+    background: linear-gradient(0deg, #ededed 0%, #d9b2ff 100%);
+    padding: 150px 50px;
+  }
+  .cta__title {
+    font-size: 3.4em;
+    font-weight: 800;
+    line-height: 1.5em;
+    color: black;
+    letter-spacing: 7px;
+  }
+  /* END CTA Area  */
+
+  /* Responsive CTA Area */
+@media screen and (max-width: 760px) {
+    .CTA__AREA{
+        padding: 80px 20px;
+    }
+    .cta__title {
+        font-size: 2em;
+    }
+  }

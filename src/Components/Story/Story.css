@@ -1,0 +1,16 @@
+/* Story Area  */
+.story__section {
+    padding: 100px 50px !important;
+  }
+  
+  .story__title {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 40px;
+  }
+ /* Responsive story part */
+ @media screen and (max-width: 760px) {
+  .story__section{
+    padding: 50px !important;
+  }
+}  
